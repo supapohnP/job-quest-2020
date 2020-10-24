@@ -4,7 +4,7 @@ function shift (arr, set, n) {
         const front = arr.slice(0, i);
         const back = arr.slice(i);
         return back.concat(front);
-    } if (set == 'right') {
+    } else if (set == 'right') {
         const back = arr.slice(0, i);
         const front = arr.slice(i);
         return front.concat(back);
